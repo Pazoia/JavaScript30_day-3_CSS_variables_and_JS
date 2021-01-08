@@ -1,5 +1,5 @@
 :root {
-    --base: rgb(69, 240, 69);
+    --base: orange;
     --spacing: 10px;
     --blur: 10px;
 }
@@ -9,6 +9,10 @@ img {
     background: var(--base);
     filter: blur(var(--blur));
 
+}
+
+.hl {
+    color: var(--base);
 }
 
 body {
