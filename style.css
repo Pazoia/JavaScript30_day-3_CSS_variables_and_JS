@@ -1,4 +1,15 @@
+:root {
+    --base: rgb(69, 240, 69);
+    --spacing: 10px;
+    --blur: 10px;
+}
 
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+
+}
 
 body {
     text-align: center;
